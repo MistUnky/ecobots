@@ -110,7 +110,7 @@ minetest.register_decoration({
 
 minetest.register_decoration({
 	deco_type = "schematic",
-	place_on = {"default:dirt_with_dry_grass"},
+	place_on = {"default:dirt_with_grass", "default:dirt_with_dry_grass", "default:snow", "default:sand", "default:desert_sand", "default:silver_sand", "default:dirt_with_rainforest_litter"},
 	sidelen = 16,
 	fill_ratio = 0.00002,
 	y_min = 2,
@@ -124,7 +124,7 @@ minetest.register_decoration({
 
 minetest.register_decoration({
 	deco_type = "schematic",
-	place_on = {"default:dirt_with_dry_grass"},
+	place_on = {"default:dirt_with_grass", "default:dirt_with_dry_grass", "default:snow", "default:sand", "default:desert_sand", "default:silver_sand", "default:dirt_with_rainforest_litter"},
 	sidelen = 16,
 	fill_ratio = 0.00002,
 	y_min = 2,
